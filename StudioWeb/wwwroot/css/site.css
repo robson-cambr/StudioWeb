@@ -39,3 +39,8 @@ input[type=text], input[type=password], input[type=tel], input[type=email], inpu
 #email {
  
 }
+
+ul li {
+    list-style: none;
+    line-height: normal;
+}
