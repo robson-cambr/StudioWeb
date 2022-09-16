@@ -54,10 +54,10 @@ footer {
     padding-right: 2.4rem;
 }
 
-    footer div {
-        color: azure;
-        border-top: 1px solid #3e4143;
-    }
+.footer-container-split {
+    color: azure;
+    border-top: 1px solid #3e4143;
+}
 
 footer h5 {
         text-transform: uppercase;
@@ -87,8 +87,20 @@ footer a:link, footer a:visited {
 
 footer a:active {
     background-color: none;
-} 
+}
 
 .footer-info {
     display: inline-block;
+    margin-right: 25px;
+}
+
+.logo-and-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container a {
+}
+
+.copyright-container {
 }
