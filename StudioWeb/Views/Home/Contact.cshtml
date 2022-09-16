@@ -3,16 +3,13 @@
     ViewData["Title"] = "Contato";
 }
 
-<h1>Contact</h1>
+<h1>Contato</h1>
 
-<ul>
-    <li>Informações para contato em outros canais:</li>
-    <li>Telefone: +55 (11) 4444-4444</li>
-    <li>Whatsapp: +55 (11) 99999-9999</li>
-    <li>Endereço: R. Guaiana-Timbó - Parque Santa Madalena, São Paulo - SP</li>
-    <li>E-mail: studio@web.com.br</li>
-</ul>
 
-<input type="text" name="Nome" value-size="40"/>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8357027051884!2d-46.508549084422754!3d-23.610224569285002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67e5329261d9%3A0xf06fb800554b8b83!2sR.%20Guaiana-Timb%C3%B3%20-%20Parque%20Santa%20Madalena%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003983-140!5e0!3m2!1spt-BR!2sbr!4v1663280813847!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<input type="text" name="Nome" minlenght="4" maxlength="32" placeholder="Nome"/>
+<input id="email" type="text" name="Email" minlenght="10" maxlenght="64" placeholder="E-mail" oninput="this.value = this.value.toLowerCase()" />
+<input id="phone" class="form-control" type="text" name="tel" minlenght="10" maxlength="15" placeholder="Telefone" onkeypress="$(this).mask('(00) 0000-00009')" />
+<textarea name="textarea" class="" cols="40" rows="10" maxlength="640" placeholder="Digite sua dúvida aqui"></textarea>
+
+
