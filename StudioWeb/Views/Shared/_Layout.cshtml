@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 navHeader">
-            <div class="container-fluid headerContainer">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 nav-header">
+            <div class="container-fluid header-container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">StudioWeb</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +39,41 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted footer-section">
         <div class="container">
-            &copy; 2022 - StudioWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div>
+                As melhores formas de pagamento disponíveis no mercado
+            </div>
+            <div class="footer-info">
+                <ul>
+                    <h5>Estúdio</h5>
+                    <li><a href="https://www.google.com">Nossa história</a></li>
+                    <li><a href="https://www.google.com">Gravações</a></li>
+                    <li><a href="https://www.google.com">Salas</a></li>
+                    <li><a href="https://www.google.com">Equipamentos</a></li>
+                    <li><a href="https://www.google.com">Instrumentos para locação</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <ul>
+                    <h5>Contato</h5>
+                    <li>Informações para contato em outros canais:</li>
+                    <li>Telefone: +55 (11) 4444-4444</li>
+                    <li>Whatsapp: +55 (11) 99999-9999</li>
+                    <li>Endereço: R. Guaiana-Timbó - Parque Santa Madalena, São Paulo - SP</li>
+                    <li>E-mail: studio@web.com.br</li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8357027051884!2d-46.508549084422754!3d-23.610224569285002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67e5329261d9%3A0xf06fb800554b8b83!2sR.%20Guaiana-Timb%C3%B3%20-%20Parque%20Santa%20Madalena%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003983-140!5e0!3m2!1spt-BR!2sbr!4v1663280813847!5m2!1spt-BR!2sbr"
+                    width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>   
+            <div>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">StudioWeb</a>
+                &copy; 2022 - StudioWeb, Inc. - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
         </div>
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
