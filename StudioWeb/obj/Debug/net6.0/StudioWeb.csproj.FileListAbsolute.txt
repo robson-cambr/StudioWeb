@@ -263,3 +263,5 @@ D:\Development\StudioWeb\StudioWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\Syst
 D:\Development\StudioWeb\StudioWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Development\StudioWeb\StudioWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Development\StudioWeb\StudioWeb\obj\Debug\net6.0\StudioWeb.csproj.CopyComplete
+C:\Development\StudioWeb\StudioWeb\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Development\StudioWeb\StudioWeb\obj\Debug\net6.0\StudioWeb.csproj.CopyComplete
